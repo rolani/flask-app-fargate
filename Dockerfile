@@ -6,10 +6,13 @@ RUN apt-get update -y
 # Set the working directory in the container
 WORKDIR /app
 
-RUN pip install flask
+# Copy requirements.txt and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
 COPY app.py .
+COPY index.html .
 
 # Expose port 80 for Flask
 EXPOSE 80
