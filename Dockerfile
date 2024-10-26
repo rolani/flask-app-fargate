@@ -11,7 +11,7 @@ RUN pip install flask
 # Copy the application code
 COPY app.py .
 
-# Expose port 5000 for Flask
+# Expose port 80 for Flask
 EXPOSE 80
 
 # Define the command to run the Flask app
