@@ -8,7 +8,14 @@ app = Flask(__name__)
 def random_fruit():
     """Returns random fruit"""
 
-    fruits = ["apple", "cherry", "orange", "banana", "pawpaw", "grapes"]
+    fruits = [
+    "apple", "cherry", "orange", "banana", "pawpaw", "grapes", 
+    "mango", "pineapple", "strawberry", "blueberry", "blackberry", 
+    "watermelon", "kiwi", "peach", "plum", "apricot", 
+    "pomegranate", "guava", "fig", "dragon fruit", 
+    "lychee", "raspberry", "coconut", "lime", "lemon", 
+    "grapefruit", "nectarine", "pear", "passion fruit", "jackfruit"
+    ]
     return choices(fruits)
 
 
