@@ -1,4 +1,4 @@
-name: Python 3.8
+name: Flask app
 run-name: ${{ github.actor }} is performing GitHub Actions
 on: [push]
 
