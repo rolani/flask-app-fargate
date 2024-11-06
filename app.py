@@ -44,7 +44,6 @@ city_timezones = {
     "Moscow": "Europe/Moscow",
     "Beijing": "Asia/Shanghai",
     "Hong Kong": "Asia/Hong_Kong",
-    "Dubai": "Asia/Dubai",
     "Johannesburg": "Africa/Johannesburg",
     "Buenos Aires": "America/Argentina/Buenos_Aires",
     "Cairo": "Africa/Cairo",
